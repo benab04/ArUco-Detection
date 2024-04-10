@@ -42,7 +42,7 @@ param_markers = aruco.DetectorParameters()
 
 @st.cache_resource
 def init_camera():
-    return cv.VideoCapture(-1)
+    return cv.VideoCapture(0)
 
 cap = init_camera()
 
