@@ -149,4 +149,4 @@ while True:
 
 # Release the camera and close the OpenCV windows
 cap.release()
-cv.destroyAllWindows()
+# cv.destroyAllWindows()
